@@ -1,0 +1,31 @@
+[package]
+name = "nyxpsi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+raptorq = "2.0.0"
+tokio = { version = "1.37.0", features = ["full"] }
+rand = "0.8.5"
+futures-util = "0.3.30"
+url = "2.5.2"
+udplite = "0.1.0"
+
+[dev-dependencies]
+criterion = "0.5"
+tokio-test = "0.4"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[[bench]]
+name = "network_benchmark"
+harness = false
+
+[profile.release]
+debug = true
