@@ -1,5 +1,4 @@
-[![Rust CI/CD](https://github.com/nyxpsi/nyxpsi/actions/workflows/rust.yml/badge.svg)](https://github.com/nyxpsi/nyxpsi/actions/workflows/rust.yml)
-
+[![Rust](https://github.com/nyxpsi/nyxpsi/actions/workflows/rust.yml/badge.svg)](https://github.com/nyxpsi/nyxpsi/actions/workflows/rust.yml)
 # nyx-ψ
 
 **nyx-ψ** _(nyxpsi)_ is a next-generation network implementation designed for resilience and efficiency in lossy and unstable network environments. Through innovative networking strategies and error correction mechanisms, **nyx-ψ** delivers reliable data transfer where traditional protocols like TCP and UDP fall short.
