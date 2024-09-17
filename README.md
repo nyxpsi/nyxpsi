@@ -12,10 +12,17 @@ Before building and running **nyx-ψ**, ensure that your development environment
 
 - **Rust Compiler**: Version **1.74** or newer is required.
 
-*Update* your toolchain using rustup if necessary. 
+If you need to install rust for the first time run the command below.
+
 ```bash
-rustup update
-rustc --version  // >= 1.74
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh  // installs rust
+```
+
+Update your local toolchain with ```rustup``` if necessary.
+
+```bash
+rustup update  // updates rust
+rustc --version  // output should be >= 1.74
 ```
 
 ## Benchmark Results
