@@ -18,3 +18,5 @@ We conducted benchmarks comparing **nyx-ψ**, TCP, and UDP under various packet 
 | UDP      | 1.07s (100%) | 5.05s (0%)   | 5.64s (0%)   |
 
 *Note: Values represent average transfer time. Percentages in parentheses indicate transfer success rate.*
+
+For more information or to contact us open a PR or email us at nyxpsi@skill-issue.dev
