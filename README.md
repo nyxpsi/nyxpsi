@@ -4,6 +4,26 @@
 **nyx-ψ** _(nyxpsi)_ is a next-generation network implementation designed for resilience and efficiency in lossy and unstable network environments. Through innovative networking strategies and error correction mechanisms, **nyx-ψ** delivers reliable data transfer where traditional protocols like TCP and UDP fall short.
 
 Built with scalability and robustness in mind, **nyx-ψ** aims to empower applications that demand high reliability and performance, even in the face of extreme packet loss.
+Results Summary
+
+## Prerequisites
+
+Before building and running **nyx-ψ**, ensure that your development environment meets the following requirements:
+
+- **Rust Compiler**: Version **1.74** or newer is required.
+
+If you need to install rust for the first time run the command below.
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh  // installs rust
+```
+
+Update your local toolchain with ```rustup``` if necessary.
+
+```bash
+rustup update  // updates rust
+rustc --version  // output should be >= 1.74
+```
 
 ## Benchmark Results
 
